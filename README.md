@@ -33,7 +33,7 @@ import numpy as np
 ```py
 img=np.zeros((100,400), dtype='uint8')
 font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img,'KANISHKAR',(5,70), font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img,'SANJU',(5,70), font,2,(255),5,cv2.LINE_AA)
 cv2.imshow('Created image', img)
 cv2.waitKey(0)
 ```
